@@ -24,7 +24,9 @@ Zeitbedarf: rund 220–225 Minuten einschliesslich einer ca. 95–100-minütigen
 3. Unter **Actions → Deploy learning unit to Pages → Run workflow** die Veröffentlichung starten. Bei späteren Pushes auf `main` startet der Workflow automatisch.
 4. Die veröffentlichte Adresse steht im abgeschlossenen Deployment. Alternativ funktioniert «Deploy from a branch», Branch `main`, Ordner `/ (root)` ohne Actions-Workflow.
 
-Der Workflow setzt keine Domain und keine Repository-URL voraus. Alle internen Ressourcen verwenden relative Pfade und funktionieren auch unter einem Projekt-Unterpfad. Es wurde kein GitHub-Repository angelegt und nichts veröffentlicht.
+Der Workflow setzt keine Domain und keine Repository-URL voraus. Alle internen Ressourcen verwenden relative Pfade und funktionieren auch unter einem Projekt-Unterpfad. Live: https://patrickfischerksa.github.io/das-lehrerzimmer-lerneinheit/
+
+Repository: https://github.com/PatrickFischerKSA/das-lehrerzimmer-lerneinheit
 
 ## Speicherung und Datenschutz
 
