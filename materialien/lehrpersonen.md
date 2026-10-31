@@ -1,64 +1,66 @@
-# Hinweise für Lehrpersonen
+# Vertiefung für Lehrpersonen
 
-## Ziel und Einsatz
+## Ziel und Anforderungen
 
-Planungsannahme: Sekundarstufe II / FMS, etwa ab 15 Jahren, Deutschkenntnisse B2+/C1. Die Einheit verbindet argumentierendes Schreiben, Filmanalyse und ethische Urteilsbildung. Sie setzt keine vollständige Lektüre oder spezielle Rechtskenntnisse voraus.
+Die Einheit richtet sich an Sek II / FMS, sprachlich etwa B2+/C1. Sie verlagert den Schwerpunkt von Figurenbeschreibung und allgemeiner Moral auf Beweislogik, sprachliches Handeln, institutionelle Verfahren und selbstkritische Interpretation.
 
-Nach der Einheit können Lernende Beobachtungen, Deutungen und Wertungen unterscheiden; zwei Szenen präzise belegen; die Wirkung eines filmischen Mittels erklären; Interessen mehrerer Figuren rekonstruieren; eine Entscheidung unter Einbezug eines Gegenarguments begründen.
+Lernende rekonstruieren unausgesprochene Schlussregeln; prüfen denselben Massstab an unterschiedlichen Figuren; unterscheiden Erklärung, Rechtfertigung und Entschuldigung; begrenzen Urteile durch Gegenbelege und verbinden Textanalyse mit tatsächlich beobachteter Inszenierung.
 
-## Ablauf · 220–225 Minuten
+## Planung
 
-| Phase | Zeit | Sozialform | Ergebnis |
-|---|---:|---|---|
-| 01 Position und Begriffe | 15 Min. | einzeln, dann zu zweit | Ersturteil und Begriffsklärung |
-| 02 Filmsichtung | 95 Min. | drei Beobachtungsgruppen | individuelle Zeit- und Belegnotizen |
-| 03 Perspektiven und Eskalation | 25 Min. | Partnerarbeit | Figurenvergleich, Kausalkette |
-| 04 Filmlabor | 25 Min. | Kleingruppen | Analyse einer kurzen Szene |
-| 05 Dilemma-Rat | 25 Min. | fünf Rollen | begründeter Entscheidungsvorschlag |
-| 06 Schreibatelier | 35 Min. | Einzelarbeit | Entwurf, Revision und Exit-Notiz |
+Etwa 8–10 Lektionen à 45 Minuten einschliesslich der Filmsichtung und einer sorgfältigen Revision. Richtwerte: Einstieg 20 Minuten, Film etwa 95–100 Minuten, Perspektiven und Beweislogik 45 Minuten, Filmlabor 45 Minuten, Rat und Verfahrensvergleich 45 Minuten, Schreiben und Revision 60–90 Minuten. Übergänge, Vertiefung und Wiederholung benötigen zusätzliche Zeit. Die vollständigen 17 Aufträge sind ein Auswahlangebot; für die kompakte Durchführung pro Auswertungsstation einen Schwerpunkt wählen. Der Schreibauftrag kann als Hausarbeit erfolgen.
 
-Mit Rückspulphasen oder ausführlicher Textrevision mehr Zeit einplanen. Praktisch: Einstieg und Film in einem Sichtungsblock, anschliessend zwei bis drei Lektionen Auswertung. Für 450–650 Wörter sind 35 Minuten knapp; bei weniger geübten Gruppen die Ausarbeitung als Hausarbeit vorsehen.
+## Belegorientierte Gesprächsführung
 
-## Erwartungshorizont · offen für begründete Alternativen
+Jede Behauptung benötigt vier Fragen: Was steht oder geschieht genau? Welcher Schluss wird daraus gezogen? Welche zusätzliche Annahme macht den Schluss möglich? Welcher andere Schluss wäre mit derselben Stelle vereinbar?
 
-**01:** Beobachtung beschreibt Wahrnehmbares; Vermutung erschliesst etwas Ungewisses; Bewertung setzt einen Massstab. Ein hoher Geldbetrag bei einem Schüler ist eine Beobachtung, eine daraus abgeleitete Täterschaft eine Vermutung. Die Aussage, eine Befragung sei unfair, benötigt einen benannten Bewertungsmassstab.
+### Freiwilligkeit und Druck · B01, B03, B05, B14
 
-**02:** Erwartet werden nachvollziehbare Zeitangaben der verwendeten Fassung, konkrete Bild- oder Tonbeobachtungen und getrennte Deutungen. Nicht die Menge der Fachwörter zählt. Eine überzeugende Notiz nennt beispielsweise räumliche Nähe, Blickrichtung oder ein hörbares Geräusch und erklärt dessen Bedeutung im Szenenkontext.
+«Freiwillig» ist zunächst eine Selbstbeschreibung des Verfahrens. Relevant ist, ob eine Verweigerung ohne Verdachtsfolgen möglich erscheint. Beim Nicken wird die Form der Beteiligung geändert, nicht notwendigerweise ihr Druck vermindert. Der Vergleich von Carlas Kritik im Kollegium und ihrer Verteidigung am Elternabend eröffnet einen Loyalitätskonflikt. Motive nicht als gesicherte Tatsachen behandeln.
 
-**03:** Carla möchte aufklären und Verantwortung übernehmen; Frau Kuhn verteidigt sich gegen einen Verdacht; Oskar steht unter Loyalitätsdruck. Diese Kurzprofile ersetzen keine Belege. Mögliche Eskalationskette: Verdächtigung und Kontrollen → eigenständige Aufnahme → Konfrontation und Verbreitung des Verdachts → Gegenreaktionen und Vertrauensverlust. Andere Reihenfolgen und zusätzliche Schritte anhand der tatsächlichen Sichtung prüfen. Kein sicheres Täterurteil aus einem eingeschränkten Bildausschnitt erzwingen.
+**Anschluss:** Kann ein geschützter Raum gleichzeitig die Kontrolle eines Machtverhältnisses erschweren? Welche transparente Grenze braucht Vertraulichkeit?
 
-**04:** Als mögliche Lesarten kommen Enge, Unübersichtlichkeit und Nähe zu Carla in Betracht. Gültig werden diese Aussagen durch konkrete Details. Das Filmbild ist vom Rahmen des SRF-Play-Players zu unterscheiden. Eine Kameraeinstellung kann unterschiedliche Wirkungen haben; alternative Deutungen sind mit Belegen zulässig.
+### Beweis, Indiz und Beweislast · B02, B04, B10, B15, B25
 
-**05:** Ein tragfähiger Vorschlag könnte vertrauliche Klärung, Anhörung aller Betroffenen, Schutz vor Gerüchten und eine benannte Verantwortung verbinden. Der Zielkonflikt zwischen schneller Aufklärung und Schutz vor vorschneller Beschuldigung bleibt bestehen. Rollenkarten werden von Lernenden aus Szenen entwickelt; erfundene Rollenpositionen als Simulation kennzeichnen. Keine juristisch verbindlichen Aussagen vermitteln.
+Eine Schlussregel verbindet Geldbesitz oder Kleidung mit einem Verdacht. Diese Regel ist nicht selbstverständlich. «Nicht eindeutig bewiesen» und «widerlegt» sind unterschiedliche Aussagen. Der mathematische Beweisunterricht liefert einen Kontrast, aber keine einfache Gleichsetzung von mathematischer und sozialer Gewissheit. B15 macht einen situativen Wechsel des Gewissheitsanspruchs diskutierbar. B25 erlaubt, den Schluss aus Nichtentkräftung auf Wahrheit zu prüfen.
 
-**06:** Mögliche These: Carlas Einsatz trägt zur Eskalation bei, erklärt sie aber nicht allein. Szenen können zeigen, wie individuelle Entscheidungen mit institutionellen Regeln, Reaktionen des Kollegiums und der Perspektive Oskars zusammenwirken. Ein gutes Gegenargument berücksichtigt Carlas Schutzabsicht und ihren begrenzten Handlungsspielraum. Kein vorgegebenes Schlussurteil; differenziert begründete Gegenpositionen sind gleichwertig.
+**Anschluss:** Welche Handlung ist unter unvollständigem Wissen vertretbar, und welche zusätzliche Information würde eine Revision auslösen?
 
-## Bewertungsraster für den Schreibauftrag · 20 Punkte
+### Öffentlichkeit, Schutz und Medien · B16, B18, B19, B25–B27
 
-Jedes Kriterium: 0 = fehlt; 1 = überwiegend pauschal; 2 = teilweise konkret, aber lückenhaft; 3 = nachvollziehbar und weitgehend präzise; 4 = durchgehend präzise, differenziert und schlüssig.
+Aufzeichnung, Zustimmung, Zitatauswahl und Veröffentlichung sind getrennte Schritte. Die Bitte, einen Text vor Druck zu schicken, begründet im Transkript nicht ausdrücklich ein Vetorecht. Quellenschutz kann mit sorgfältiger Recherche vereinbar sein, ersetzt sie aber nicht. Die Schulleitung verbindet Schulfrieden mit Kommunikationsbegrenzung; die Schülerzeitung erhebt selbst einen weitreichenden Wahrheitsanspruch.
 
-| Kriterium | Erwartung für 4 Punkte |
+**Anschluss:** Wendet die Klasse beim Bewerten der Schülerzeitung dieselbe Beweisvorsicht an wie bei der Schulleitung? Kann man einen Artikel inhaltlich kritisieren und sein Verbot dennoch ablehnen?
+
+### Verantwortung und Beteiligung · B21–B24, B27–B28
+
+Oskars Schutzmotiv kann Verhalten erklären, ohne Gewalt zu rechtfertigen. Eine Sanktion benötigt ihrerseits eine tragfähige Begründung. Carlas Rücktritt kann als Übernahme von Verantwortung und als Aufgabe weiterer Verantwortung gelesen werden. Formale Abstimmung und wirksame Beteiligung der Betroffenen sind gesondert zu prüfen. Die Schlussforderung nach Oskars Einlenken steht in Spannung zur Rede vom gemeinsamen Versagen.
+
+**Anschluss:** Wer kann sich Solidarität leisten? Wer muss praktisch nachgeben, wenn Verantwortung sprachlich auf alle verteilt wird?
+
+## Nutzung der Rückmeldungen
+
+Die lokale Prüfung erkennt formale Textsignale, nicht die semantische Qualität. Keine automatischen Noten und keine vermeintlich sichere Diagnose individueller Fehlvorstellungen. Die Rückmeldung zeigt ihre Prüfgrenzen offen an. Ein langer Text oder viele Belegkennungen werden nicht mit hoher Qualität gleichgesetzt.
+
+Die fachlichen Prüfimpulse sind aufgabenspezifisch. Lassen Sie Lernende eine konkrete Änderung mit der Sequenz «Ausgangsbehauptung – Gegenbeleg – revidierte Behauptung» dokumentieren. Beim Gespräch kann ausdrücklich bestritten werden, dass ein vom System vermisstes Signal tatsächlich fehlt: überzeugende Formulierungen sind vielfältiger als Mustererkennung.
+
+## Bewertungsraster für 700–1000 Wörter · 24 Punkte
+
+Je Kriterium 0–4 Punkte: 0 fehlt; 1 überwiegend pauschal; 2 teilweise konkret, aber lückenhaft; 3 nachvollziehbar und präzise mit einzelnen Lücken; 4 durchgehend präzise, selbstkritisch und schlüssig.
+
+| Kriterium | Anforderung für 4 Punkte |
 |---|---|
-| These und Gedankengang | klare, differenzierte These; Absätze entwickeln eine nachvollziehbare Argumentation |
-| Szenenbelege | mindestens zwei präzise auffindbare Belege; Wahrnehmung und Schlussfolgerung sauber getrennt |
-| Filmische Gestaltung | konkretes Mittel richtig beschrieben; Wirkung und Zusammenhang mit dem Konflikt plausibel erklärt |
-| Abwägung und Urteil | starker Einwand fair geprüft; mehrere Perspektiven und Grenzen des eigenen Urteils berücksichtigt |
-| Sprache und Aufbau | präzise Formulierungen, klare Verknüpfungen, gut lesbare Struktur und eigenständige Schlussfolgerung |
+| These und Aufbau | differenzierte Leitthese; jeder Abschnitt trägt zu ihrer Prüfung bei |
+| Textbelege | mindestens drei genau verortete Stellen aus verschiedenen Phasen; Wortlaut und Einordnung getrennt |
+| Schlusslogik | Übergänge vom Beleg zur These erklärt; Annahmen und Grenzen offengelegt |
+| Filmische Gestaltung | mindestens ein tatsächlich beobachtetes Mittel präzise beschrieben und gegen eine alternative Wirkung geprüft |
+| Gegenprüfung und Urteil | starke Gegenposition fair geprüft; Urteil daraufhin begrenzt oder begründet bestätigt |
+| Sprache und Revision | präzise, verknüpfte Darstellung; eine gedankliche Revision am Gegenbeleg sichtbar dokumentiert |
 
-Eine Notenumrechnung ist nicht vorgegeben. Den Bewertungsmassstab vor dem Schreiben transparent machen. Wortumfang dient der Orientierung; Abweichungen nicht zusätzlich ohne angekündigte Regel bestrafen.
+Keine feste Notenumrechnung. Wortumfang ist eine Orientierung; abweichende Anforderungen vorab vereinbaren. Ein anderes moralisches Urteil darf bei gleicher Belegqualität nicht schlechter bewertet werden.
 
-## Differenzierung
+## Referenz und Grenzen
 
-Unterstützung: zwei statt drei Figuren vergleichen; Wortbank Beobachtung/Vermutung/Wertung; Satzstarter aus Station 06; mündliche Vorbesprechung. Bei Bedarf 250–350 Wörter mit denselben Kernanforderungen vereinbaren.
+Die Belegkarten beruhen auf dem bereitgestellten «Transkript Lehrerzimmer.docx». Alle Auszüge wurden am bezeichneten Absatz überprüft; Erkennungsfehler bleiben kenntlich und unverändert. P-Verweise zählen direkte Absätze im Dokumenttext inklusive Leerabsätzen und Überschriften. Keine Seitenzahlen, Sprecherzuordnung oder Filmzeit aus der Zählung ableiten. Das [Belegheft](belegheft.md) enthält Kontext, Diskussion und Beleggrenzen zu jeder Karte.
 
-Vertiefung: Schülerzeitung und Elternkommunikation als eigenständige Perspektiven analysieren; zwei unterschiedliche Lesarten derselben Szene prüfen; eine Gegeninszenierung als Storyboard entwerfen.
-
-## Technische und didaktische Grenzen
-
-Die Lösungshinweise sind öffentlich einsehbar. Antworten werden nicht automatisch beurteilt. Kein Video oder Transkript wird auf GitHub bereitgestellt. Der Film wurde für die Erstellung nicht vollständig gesichtet; konkrete Details müssen in der gemeinsamen Sichtung überprüft werden. Persönliche Erfahrungen mit Beschuldigungen nicht einfordern; ein Ausstieg aus einer belastenden Rollensimulation muss möglich sein.
-
-Quellen: [ZDF: Filmangaben und Rollen](https://presseportal.zdf.de/pressemappe/das-lehrerzimmer), [kinofenster: Filmanalyse und Einsatz ab Klasse 9](https://www.kinofenster.de/50502/das-lehrerzimmer), abgerufen am 31.10.2026. Die Aufgaben sind eigenständig formuliert.
-
-## Filmquelle
-
-Die Sichtung erfolgt über [SRF Play](https://www.srf.ch/play/tv/-/video/-?urn=urn:srf:video:e0c28018-3912-4d4c-a91d-2100472543e7) in einem separaten Tab. Der Link öffnet direkt das bereitgestellte Filmangebot. Zeitcodes manuell aus dem SRF-Play-Player übernehmen.
+Kamera, Schnitt, Musik, Gestik und Schlussbilder sind am Film zu prüfen. Der Schluss des Transkripts ist lückenhaft. Filmquelle: [SRF Play](https://www.srf.ch/play/tv/-/video/-?urn=urn:srf:video:e0c28018-3912-4d4c-a91d-2100472543e7). Keine verbindlichen rechtlichen Aussagen aus Figurenrede ableiten. Persönliche Beschuldigungserfahrungen nicht einfordern; die Rollenarbeit bezieht sich auf den fiktionalen Fall.

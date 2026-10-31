@@ -1,49 +1,63 @@
 # Das Lehrerzimmer – Zwischen Verdacht und Verantwortung
 
-Deutschsprachige, statische Lerneinheit für Sekundarstufe II / FMS zu İlker Çataks Film mit Leonie Benesch. Ohne Installation, Backend, API-Schlüssel oder externe Bibliotheken.
+Anspruchsvolle Lerneinheit für Sekundarstufe II / FMS mit 17 Analyseaufträgen, Rückmeldungen zu Einträgen und 28 Belegkarten auf Basis des bereitgestellten Transkripts.
 
-## Start
+**[Live-Lerneinheit](https://patrickfischerksa.github.io/das-lehrerzimmer-lerneinheit/)** · [Repository](https://github.com/PatrickFischerKSA/das-lehrerzimmer-lerneinheit)
 
-`index.html` im Browser öffnen. Die Schaltfläche «SRF Play öffnen» führt direkt zum bereitgestellten Filmangebot in einem zweiten Tab. Zeitcodes von Hand aus dem SRF-Play-Player in die Notizen übernehmen. Die Lerneinheit bettet den Stream nicht ein und benötigt keine lokale Filmdatei.
+## Arbeiten mit der Einheit
 
-Der direkte SRF-Play-Link wurde vom Nutzer bereitgestellt. Die Wiedergabe und aktuelle Verfügbarkeit konnten bei der Erstellung nicht unabhängig geprüft werden.
+`index.html` öffnen oder die Live-Adresse aufrufen. Der Film wird über den direkten [SRF-Play-Link](https://www.srf.ch/play/tv/-/video/-?urn=urn:srf:video:e0c28018-3912-4d4c-a91d-2100472543e7) in einem separaten Tab angesehen. Die Einheit benötigt keine lokale Filmdatei, Installation, API-Schlüssel oder externen Bibliotheken.
 
-## Enthalten
+1. Eigene Analyse schreiben. Die Antwortfelder unterstützen These, Beleg, Begründung und Gegenlesart, ohne diese Form verbindlich vorzuschreiben.
+2. «Eintrag prüfen & Diskussion vertiefen» wählen.
+3. Textsignale, aufgabenspezifischen Prüfpunkt und Gegenposition prüfen.
+4. Passende Belegkarten öffnen; Aussagekraft und Grenzen der Auszüge diskutieren.
+5. Eintrag überarbeiten und erneut prüfen. Geänderte Einträge kennzeichnen ältere Rückmeldungen als veraltet.
+6. Das Analysejournal einschliesslich angeforderter Rückmeldungen, Belegen und Diskussionsfragen exportieren.
 
-- Sechs Stationen: Einstieg, Sichtung, Figuren und Eskalation, Filmanalyse, Dilemma-Rat, Schreibatelier.
-- SRF-Play-Verknüpfung mit Anleitung für die externe Filmsichtung.
-- 17 Antwortfelder, lokaler Fortschritt, Markdown-Export und Druckansicht.
-- [Arbeitsblatt](materialien/arbeitsblatt.md) und [Hinweise für Lehrpersonen](materialien/lehrpersonen.md) mit Bewertungsraster.
+Die Belegkarten und Rückmeldungen enthalten Spoiler. Das Ersturteil vor der Sichtung zunächst ohne sie formulieren. Die vollständige Ausarbeitung benötigt etwa 8–10 Lektionen à 45 Minuten einschliesslich Film, Diskussion und Revision. Kürzung über die Auswahl von Aufgaben möglich.
 
-Zeitbedarf: rund 220–225 Minuten einschliesslich einer ca. 95–100-minütigen Filmsichtung, zuzüglich Pausen und zusätzlicher Wiederholungen. Der Schreibauftrag kann als Hausarbeit vergeben werden.
+## Was die Rückmeldung leistet
 
-## GitHub und GitHub Pages
+Die Prüfung läuft vollständig lokal im Browser. Sie erkennt Belegkennungen, Absatzverweise in Kartenbereichen, Zeitcodes sowie typische sprachliche Signale für Begründung, Gegenposition und Einschränkung. Sie reagiert auf fehlende und ungültige Verweise. Aufgabenspezifische Kommentare erläutern Schlussprobleme, konkurrierende Lesarten und nächste Überarbeitungsschritte. Belege sind thematisch zugeordnet; genannte bekannte Belegkarten werden zusätzlich einbezogen.
 
-1. Ein neues GitHub-Repository anlegen und **den Inhalt dieses Ordners** hochladen; `index.html` muss im Repository-Hauptverzeichnis liegen. Versteckte `.github`-Dateien ebenfalls übernehmen.
-2. Unter **Settings → Pages → Build and deployment → Source** «GitHub Actions» wählen.
-3. Unter **Actions → Deploy learning unit to Pages → Run workflow** die Veröffentlichung starten. Bei späteren Pushes auf `main` startet der Workflow automatisch.
-4. Die veröffentlichte Adresse steht im abgeschlossenen Deployment. Alternativ funktioniert «Deploy from a branch», Branch `main`, Ordner `/ (root)` ohne Actions-Workflow.
+**Keine KI-Korrektur oder semantische Bewertung:** Ein erkanntes «weil» beweist keine gute Begründung. Ein B-Verweis beweist keine passende Verwendung der Stelle. Alternative Formulierungen können ohne erkanntes Signal fachlich überzeugend sein. Es gibt weder automatische Noten noch einen Qualitätspunktestand. Auf diese Grenzen weist die Oberfläche ausdrücklich hin. Inhaltliche Rückmeldung entsteht im Abgleich von eigenem Text, Prüfimpuls und Belegen und im anschliessenden Gespräch.
 
-Der Workflow setzt keine Domain und keine Repository-URL voraus. Alle internen Ressourcen verwenden relative Pfade und funktionieren auch unter einem Projekt-Unterpfad. Live: https://patrickfischerksa.github.io/das-lehrerzimmer-lerneinheit/
+## Referenztext und Fundstellen
 
-Repository: https://github.com/PatrickFischerKSA/das-lehrerzimmer-lerneinheit
+Quelle: vom Nutzer bereitgestellte Datei «Transkript Lehrerzimmer.docx». Das Original enthält 723 direkte Textabsätze einschliesslich Überschriften und Leerabsätzen. P0001 bezeichnet den ersten solchen Absatz; die Zählung ist keine Seitenzählung oder Filmzeit. Nur normale und geschützte Leerzeichen sowie äussere Leerzeichen werden für die Zitierprüfung vereinheitlicht. Jeder veröffentlichte Zitat-Auszug wurde auf exaktes Vorkommen im angegebenen Absatz geprüft.
+
+Der Text enthält erkennbare automatische Transkriptionsfehler, keine verlässlichen Sprechermarkierungen und keine Zeitcodes. Die Schlusssequenz ist stark lückenhaft. Deshalb keine erfundenen Szenenzeiten, keine verbindliche Wortlautanalyse fehlerhafter Fremdsprachenpassagen und keine Kamera- oder Mimikbehauptungen aus dem Transkript. Filmische Mittel müssen bei der Filmsichtung nachgewiesen werden. Kontextbeschreibungen und Interpretationen sind von Zitaten getrennt.
+
+Das vollständige DOCX, vollständige Transkript und Video werden nicht veröffentlicht. Die 28 ausgewählten Belegkarten enthalten kurze, für die Aufgaben relevante Auszüge. Die ursprünglichen Aufgaben wurden anhand des Referenztexts vertieft. Zusätzliche fachliche Orientierung: [ZDF](https://presseportal.zdf.de/pressemappe/das-lehrerzimmer) und [kinofenster](https://www.kinofenster.de/50502/das-lehrerzimmer).
+
+## Materialien
+
+- [Arbeitsblatt mit Überarbeitungsimpulsen](materialien/arbeitsblatt.md)
+- [Belegheft mit Zitaten, Fundstellen und Streitfragen](materialien/belegheft.md)
+- [Unterrichtsplanung und Bewertungsraster](materialien/lehrpersonen.md)
+
+Lösungshinweise und Belege sind öffentlich; kein geschützter Lehrpersonenbereich.
 
 ## Speicherung und Datenschutz
 
-Antworten und Häkchen liegen unter `lehrerzimmer-v1` im Local Storage des Browsers. Sie sind geräte-, browser- und ursprungsgebunden. Bei `file://` kann die Speicherung eingeschränkt sein. Exportieren ist die verlässlichere Sicherung. Es gibt keinen Import und keine Synchronisation. Auf gemeinsam verwendeten Geräten nach dem Export die Antworten löschen.
+Antworten und Häkchen verbleiben unter `lehrerzimmer-v1` im Local Storage. Bestehende Einträge der ersten Fassung bleiben erhalten; die Aufgaben sind inzwischen anspruchsvoller formuliert. Speicherung ist geräte-, browser- und ursprungsgebunden und kann bei `file://` oder privaten Sitzungen eingeschränkt sein. Rückmeldungen bleiben nur während der geöffneten Sitzung sichtbar und können jederzeit aus dem gespeicherten Eintrag neu erzeugt werden. Ein Export sichert beides; es gibt keinen Import und keine Synchronisation.
 
-Der Film wird auf SRF Play angesehen. Es wird keine Filmdatei hochgeladen oder lokal ausgewählt. Die Plattform hat eigene Konto-, Zugangs- und Datenschutzbedingungen. In der Lerneinheit selbst gibt es keine Tracker, CDNs, Webfonts oder automatischen externen Requests; externe Seiten werden erst bei Aufruf eines Links geöffnet.
+Auf gemeinsam genutzten Geräten nach dem Export die Antworten löschen. Keine Eingaben werden an einen KI-Dienst oder Server gesendet. Keine Tracker, CDNs oder externen Webfonts in dieser Einheit. SRF Play und externe Quellen haben eigene Zugangs- und Datenschutzbedingungen.
 
-## Materialbasis und Grenzen
+## Entwicklung und GitHub Pages
 
-Die Filmsichtung ist auf SRF Play ausgerichtet. Keine Volltranskription, keine vollständige inhaltliche Sichtung und keine verifizierten Szenenzeitcodes als Erstellungsgrundlage. Deshalb erarbeiten Lernende die Zeitbelege selbst. Laufzeit und Vorspann können je nach Fassung variieren. Filmquelle: [Das Lehrerzimmer auf SRF Play](https://www.srf.ch/play/tv/-/video/-?urn=urn:srf:video:e0c28018-3912-4d4c-a91d-2100472543e7). Der direkte Link wurde vom Nutzer bereitgestellt; keine unabhängige Wiedergabeprüfung.
+Statische HTML/CSS/JS-Dateien. Daten und Fachkommentare: `feedback-data.js`; reine Textsignalprüfung: `feedback-engine.js`; Oberfläche, Speicherung und Export: `app.js`. Keine Builds nötig.
 
-Fakten und fachliche Orientierung wurden am 31.10.2026 mit [ZDF](https://presseportal.zdf.de/pressemappe/das-lehrerzimmer) und [kinofenster](https://www.kinofenster.de/50502/das-lehrerzimmer) abgeglichen. Aufgaben und Lösungshinweise sind eigenständig formuliert. Keine übernommenen Arbeitsblätter, Filmstills, Dialogabschriften oder Filmdateien im Repository.
+Prüfen:
 
-## Rechte und Weiterverwendung
+```sh
+node --check app.js
+node --check feedback-data.js
+node --check feedback-engine.js
+node --test tests/feedback.test.js
+```
 
-Die technische Eignung für GitHub ist keine Rechtefreigabe für den Film. Eine eigene zulässige Filmquelle ist für den Unterricht erforderlich. `.gitignore` schliesst übliche Medienformate aus. Für diese neu erstellten Unterrichtstexte und den Code ist keine öffentliche Lizenz vorgegeben; die herausgebende Person kann vor Veröffentlichung eine passende Lizenz ergänzen. Rechte am Film und an verlinkten Materialien bleiben bei den jeweiligen Rechteinhabern.
+Der Pages-Workflow führt diese Prüfungen aus und veröffentlicht Pushes auf `main`. In den Repository-Einstellungen muss Pages als Quelle «GitHub Actions» verwenden. Relative Ressourcenpfade unterstützen den Projekt-Unterpfad. Die automatisch erzeugten Antworten sind kein Serverinhalt.
 
-## Prüfung
-
-JavaScript-Syntax: `node --check app.js`. Links und IDs werden lokal geprüft. Druckfunktion über den Browserdialog; «Als PDF sichern» wählen. Lösungshinweise sind didaktische Orientierung, keine automatisch korrigierbare Musterantwort und kein geschützter Lehrpersonenbereich.
+Keine öffentliche Lizenz für den Code oder die Unterrichtstexte vorgegeben. Film und Referenztext werden durch die GitHub-Veröffentlichung nicht allgemein zur Weiterverwendung freigegeben.

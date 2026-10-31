@@ -1,0 +1,34 @@
+'use strict';
+const assert = require('node:assert/strict');
+const { assess } = require('../feedback-engine.js');
+const data = require('../feedback-data.js');
+const run = (text, id='unsicherheit') => assess(text,id,data);
+assert.equal(data.cards.length,28);
+assert.equal(Object.keys(data.tasks).length,17);
+assert.equal(run('   ').empty,true);
+assert.deepEqual(run('   ').signals,[]);
+assert.equal(run('B99 ist ein Beweis.').unknown[0],'B99');
+assert.equal(run('B99 ist ein Beweis.').signals[0].found,false);
+assert.deepEqual(run('b10 und B10, P0296').found,['B10']);
+assert.deepEqual(run('P296').found,['B10']);
+assert.equal(run('00:14:32 zeigt eine Nahaufnahme.').hasTime,true);
+assert.equal(run('14:32 zeigt eine Nahaufnahme.').hasTime,true);
+assert.equal(run('Dieses Wort allein: Beweis.').hasTime,false);
+assert.equal(run('B10: weil die Bluse keine eindeutige Identifizierung erlaubt. Allerdings könnte eine weitere Beobachtung das ändern.').hasReason,true);
+assert.equal(run('B10: weil die Bluse keine eindeutige Identifizierung erlaubt. Allerdings könnte eine weitere Beobachtung das ändern.').hasCounter,true);
+assert.equal(run('Das ist noch nicht bewiesen.').hasLimit,true);
+assert.ok(run(data.cards.find(c=>c.id==='B02').quotes[1].text).found.includes('B02'));
+// No semantic truth or grade is inferred from matched signals, even for a counterfactual claim.
+const misleading=run('B10 beweist eindeutig die Schuld, weil es ein Video gibt. Allerdings ist das egal.');
+assert.equal(misleading.signals[0].found,true);
+assert.ok(misleading.signals[0].text.includes('nicht automatisch'));
+assert.equal('score' in misleading,false);
+assert.equal('correct' in misleading,false);
+assert.equal(run('<img src=x onerror=alert(1)>').selection,'<img src=x onerror=alert(1)>');
+for(const [id,t] of Object.entries(data.tasks)){
+ assert.ok(t.refs.length>=3,id);
+ for(const ref of t.refs) assert.ok(data.cards.find(c=>c.id===ref),id+': '+ref);
+ assert.ok(run('',id).revision.length>30,id);
+}
+assert.throws(()=>run('text','bad'));
+console.log('OK: 28 Karten, 17 Aufgaben, Leertext, ungültige Verweise, Absatz-/Zeitbelege, Transparenz und alle Aufgabenprofile.');
