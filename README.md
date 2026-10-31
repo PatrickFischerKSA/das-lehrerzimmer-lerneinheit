@@ -19,7 +19,7 @@ Die Belegkarten und Rückmeldungen enthalten Spoiler. Das Ersturteil vor der Sic
 
 ## Was die Rückmeldung leistet
 
-Die Prüfung läuft vollständig lokal im Browser. Sie erkennt Belegkennungen, Absatzverweise in Kartenbereichen, Zeitcodes sowie typische sprachliche Signale für Begründung, Gegenposition und Einschränkung. Sie reagiert auf fehlende und ungültige Verweise. Aufgabenspezifische Kommentare erläutern Schlussprobleme, konkurrierende Lesarten und nächste Überarbeitungsschritte. Belege sind thematisch zugeordnet; genannte bekannte Belegkarten werden zusätzlich einbezogen.
+Die Prüfung läuft vollständig lokal im Browser. Sie erkennt Belegkennungen, Absatzverweise in Kartenbereichen, Zeitcodes sowie typische sprachliche Signale für Begründung, Gegenposition und Einschränkung. Sie reagiert auf fehlende und ungültige Verweise. Bis zu zwei thematische Anschlussfragen reagieren zusätzlich auf Wörter im eigenen Eintrag, ohne eine Haltung dazu zu unterstellen. Aufgabenspezifische Kommentare erläutern Schlussprobleme, konkurrierende Lesarten und nächste Überarbeitungsschritte. Belege sind thematisch zugeordnet; genannte bekannte Belegkarten werden zusätzlich einbezogen.
 
 **Keine KI-Korrektur oder semantische Bewertung:** Ein erkanntes «weil» beweist keine gute Begründung. Ein B-Verweis beweist keine passende Verwendung der Stelle. Alternative Formulierungen können ohne erkanntes Signal fachlich überzeugend sein. Es gibt weder automatische Noten noch einen Qualitätspunktestand. Auf diese Grenzen weist die Oberfläche ausdrücklich hin. Inhaltliche Rückmeldung entsteht im Abgleich von eigenem Text, Prüfimpuls und Belegen und im anschliessenden Gespräch.
 

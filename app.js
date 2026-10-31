@@ -101,6 +101,19 @@ function renderFeedback(field, target) {
     const uncovered = report.paragraphMentions.filter(n => !reference.cards.some(c => n >= c.start && n <= c.end));
     if (uncovered.length) target.append(element('p', `Diese Absatzverweise sind nicht durch eine veröffentlichte Belegkarte abgedeckt: ${uncovered.map(paragraphId).join(', ')}. Sie werden hier nicht auf Richtigkeit geprüft; gleiche sie mit dem Originaldokument ab.`, 'fine'));
   }
+  for (const route of report.routes) {
+    const box = element('div', undefined, 'discussion-route');
+    box.append(element('h4', 'Dein Stichwort «' + route.matched + '»: ' + route.title));
+    box.append(element('p', route.question));
+    const links = element('p', undefined, 'route-links');
+    for (const id of route.refs) {
+      const link = element('a', id + ' · ' + cardsById.get(id).title);
+      link.href = '#evidence-' + id; links.append(link, document.createTextNode(' '));
+    }
+    box.append(links);
+    box.append(element('p', 'Thematischer Anschluss an deinen Wortlaut; keine automatische Feststellung deiner Position.', 'fine'));
+    target.append(box);
+  }
   target.append(element('h4', 'Fachlicher Prüfpunkt'));
   target.append(element('p', report.focus));
   target.append(element('p', report.warrant));
@@ -152,6 +165,7 @@ document.querySelector('#export').addEventListener('click', () => {
       if (checked.value !== field.value) text += `Geprüfte Fassung:\n\n${checked.value}\n\n`;
       for (const signal of r.signals) text += `- ${signal.name}: ${signal.text}\n`;
       text += `\nPrüfpunkt: ${r.focus}\n\n${r.warrant}\n\nGegenposition: ${r.counter}\n\nRevision: ${r.revision}\n\n`;
+      for (const route of r.routes) text += `Anschluss an «${route.matched}»: ${route.title}\n\n${route.question}\n\nBelege: ${route.refs.join(', ')}.\n\n`;
       if (r.unknown.length) text += `Nicht vorhandene Karten: ${r.unknown.join(', ')}\n\n`;
       for (const id of r.refs) {
         const c = cardsById.get(id);

@@ -1,4 +1,4 @@
-/* Ausgewählte Auszüge aus dem vom Nutzer bereitgestellten Transkript. Kein vollständiges Transkript. */
+/* Ausgewählte Transkriptauszüge und redaktionelle Diskussionsimpulse. */
 const LEHRERZIMMER_DATA = {
   "source": {
     "title": "Transkript Lehrerzimmer.docx",
@@ -831,6 +831,120 @@ const LEHRERZIMMER_DATA = {
       "counter": "Ein unverändertes Urteil kann ein Lerngewinn sein, wenn ein ernsthafter Gegenbeleg verarbeitet und nicht übergangen wurde.",
       "revision": "Formuliere: «Früher galt für mich …; wegen B… gilt jetzt …; offen bleibt die Frage, ob …»."
     }
-  }
+  },
+  "routes": [
+    {
+      "id": "choice",
+      "pattern": "freiwillig\\w*|druck|nötig\\w*|genötigt|kontroll\\w*",
+      "title": "Freiwilligkeit und faktischer Ausstieg",
+      "refs": [
+        "B03",
+        "B05",
+        "B14"
+      ],
+      "question": "Prüfe den Sprung von der Bezeichnung «freiwillig» zum tatsächlichen Handlungsspielraum: Welche Folgen könnte ein Nein haben? Vergleiche Carlas Kritik in B05 mit ihrer Verteidigung in B14. Was bleibt von deiner Deutung bestehen, wenn dieselbe Figur beide Positionen vertritt?"
+    },
+    {
+      "id": "proof",
+      "pattern": "beweis\\w*|indiz\\w*|schuldig|unschuldig|täterschaft|beweislast",
+      "title": "Vom Hinweis zum Schuldurteil",
+      "refs": [
+        "B02",
+        "B10",
+        "B25"
+      ],
+      "question": "Unterscheide drei mögliche Schlüsse: Eine Behauptung ist plausibel; sie ist bewiesen; ihr Gegenteil ist bewiesen. Welche Stufe trägt dein Beleg? B10 begrenzt die Eindeutigkeit, B25 problematisiert die Nichtentkräftung. Benenne eine Information, die deine Einschätzung tatsächlich ändern könnte."
+    },
+    {
+      "id": "public",
+      "pattern": "öffentlich\\w*|entschuldig\\w*|rufschad\\w*|rufmord",
+      "title": "Wem gegenüber wirkt die Entschuldigung?",
+      "refs": [
+        "B06",
+        "B16",
+        "B28"
+      ],
+      "question": "Vergleiche verlangte Entschuldigung, öffentlich wirksame Entlastung und bedingtes Bedauern. Wem gegenüber soll die Äusserung etwas verändern? B06 und B16 können zeigen, warum dieselben Worte als Einsicht, Gesprächsritual oder Wiederherstellung eines Rufes gelesen werden."
+    },
+    {
+      "id": "press",
+      "pattern": "zensur|zeitung\\w*|journalis\\w*|quellenschutz|presse\\w*|artikel",
+      "title": "Recherche oder Bestätigung einer Vermutung?",
+      "refs": [
+        "B18",
+        "B19",
+        "B25",
+        "B26"
+      ],
+      "question": "Prüfe an B19 und B25, ob Quellenschutz und der Anspruch, Wahrheit aufzudecken, bereits die Qualität der Recherche sichern. Wende auf Schülerzeitung und Schulleitung denselben Massstab an: Wer muss welche Behauptung belegen, und wessen Schweigen wird als belastend ausgelegt?"
+    },
+    {
+      "id": "procedure",
+      "pattern": "demokra\\w*|abstimm\\w*|suspend\\w*|sanktion\\w*|anhörung|mehrheit\\w*",
+      "title": "Geordnetes Verfahren und gerechtes Ergebnis",
+      "refs": [
+        "B22",
+        "B23",
+        "B24"
+      ],
+      "question": "B24 bezeichnet die Abstimmung als demokratisch. Ist damit schon die Beteiligung der Betroffenen geklärt? Trenne Verfahrensform, Informationsgrundlage und Folgen der Entscheidung. Welche konkrete Änderung könnte einen erkannten Mangel beheben, ohne das Verhalten aus B22 zu übergehen?"
+    },
+    {
+      "id": "math",
+      "pattern": "mathemat\\w*|algorithm\\w*|würfel|berechen\\w*|rechenaufgabe",
+      "title": "Das Ordnungsmodell und seine Grenze",
+      "refs": [
+        "B02",
+        "B12",
+        "B15"
+      ],
+      "question": "B12 stellt eindeutige Handlungsfolgen neben eine soziale Frage ohne eindeutige Lösung. Prüfe die Motivlesart gegen die Möglichkeit, dass der Würfel vor allem ein Kontaktangebot ist. Welche Beobachtung aus dem Film erklärt deine Lesart besser als diese Alternative?"
+    },
+    {
+      "id": "attribution",
+      "pattern": "rassis\\w*|migrat\\w*|\\bAli\\b|vorurteil\\w*|herkunft",
+      "title": "Zuschreibung und scheinbare Entlastung",
+      "refs": [
+        "B04",
+        "B07",
+        "B08"
+      ],
+      "question": "Rekonstruiere den Mechanismus der Zuschreibung, statt nur ein Etikett zu vergeben: Welche Merkmale werden mit welchem Verhalten verknüpft? Prüfe in B07 auch die Entlastung durch «integere Menschen». Wird der Schluss damit sachlich widerlegt oder durch eine andere Personenbewertung ersetzt?"
+    },
+    {
+      "id": "responsibility",
+      "pattern": "verantwort\\w*|solidari\\w*|schutz\\w*|mitschuld|rücktritt",
+      "title": "Ein Wert, mehrere Träger der Folgen",
+      "refs": [
+        "B21",
+        "B23",
+        "B27",
+        "B28"
+      ],
+      "question": "B21 erinnert an ungleich verteilte Risiken, B27 an die übrige Klasse. Wenn du Schutz oder Verantwortung forderst: Wer soll konkret was tun, wer trägt einen Nachteil, und wer kann nicht ausweichen? Teste deine Position an einer Person, die nicht im Zentrum deiner Analyse steht."
+    },
+    {
+      "id": "certainty",
+      "pattern": "widerspr\\w*|lüg\\w*|lüge|gewiss\\w*|unsicher\\w*|sicher",
+      "title": "Wechselnde Gewissheit ist erklärungsbedürftig",
+      "refs": [
+        "B14",
+        "B15",
+        "B20"
+      ],
+      "question": "Eine Spannung zwischen Äusserungen ist zunächst ein Befund. Der Schluss auf Lüge, Überforderung oder neue Erkenntnis benötigt zusätzliche Annahmen. Stelle zwei solcher Erklärungen gegenüber und nenne für jede die Beobachtung, die sie am ehesten schwächen würde."
+    },
+    {
+      "id": "silence",
+      "pattern": "schweig\\w*|verschwiegen\\w*|sprachregel\\w*|wording|schulfrieden",
+      "title": "Schutz durch Schweigen oder Schutz vor Kritik?",
+      "refs": [
+        "B11",
+        "B19",
+        "B26"
+      ],
+      "question": "B11 begründet Zurückhaltung mit Schutz, B26 begrenzt die Kommunikation unter Berufung auf den Schulfrieden. Welche Transparenz über Zuständigkeit, Dauer und Korrekturmöglichkeiten würde eine legitime Vertraulichkeit von blosser Abschirmung unterscheiden?"
+    }
+  ]
 };
 if (typeof module !== "undefined") module.exports = LEHRERZIMMER_DATA;

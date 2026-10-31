@@ -32,3 +32,9 @@ for(const [id,t] of Object.entries(data.tasks)){
 }
 assert.throws(()=>run('text','bad'));
 console.log('OK: 28 Karten, 17 Aufgaben, Leertext, ungültige Verweise, Absatz-/Zeitbelege, Transparenz und alle Aufgabenprofile.');
+const route=run('Die Kontrolle war nicht freiwillig.');
+assert.ok(route.routes.some(r=>r.id==='choice'));
+assert.ok(route.routes.some(r=>r.matched.toLowerCase()==='kontrolle'||r.matched.toLowerCase()==='freiwillig'));
+assert.equal(route.routes.length<=2,true);
+assert.deepEqual(run('').routes,[]);
+for(const route of data.routes)for(const id of route.refs)assert.ok(data.cards.find(c=>c.id===id));

@@ -33,9 +33,16 @@
         'Ein Signal für eine Einschränkung oder Unsicherheit ist erkennbar. Prüfe, ob du konkret benennst, was die Stelle belegt und was offen bleibt.',
         'Keine typische Einschränkung erkannt. Benenne die Grenze deines Schlusses: Welche stärkere Behauptung lässt sich aus dem Beleg noch nicht ableiten?')}
     ];
+    // Themenanlässe knüpfen an den Wortlaut an, ohne die Haltung dazu zu unterstellen.
+    const routes = empty ? [] : (data.routes || []).map(route => {
+      const match = new RegExp(route.pattern, 'iu').exec(text);
+      return match ? {...route, matched: match[0]} : null;
+    }).filter(Boolean).sort((a,b) =>
+      b.refs.filter(id => task.refs.includes(id)).length - a.refs.filter(id => task.refs.includes(id)).length
+    ).slice(0,2);
     const recommended = [...new Set([...task.refs, ...found])];
     const selection = text.length > 260 ? text.slice(0, 260) + ' …' : text;
-    return {empty,selection,signals,found,unknown,paragraphMentions,hasTime,hasReason,hasCounter,hasLimit,
+    return {empty,selection,signals,found,unknown,routes,paragraphMentions,hasTime,hasReason,hasCounter,hasLimit,
       focus:task.focus,warrant:task.warrant,counter:task.counter,revision:task.revision,refs:recommended};
   }
   const api = {assess};
