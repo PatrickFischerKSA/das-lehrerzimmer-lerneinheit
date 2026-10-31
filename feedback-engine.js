@@ -35,7 +35,7 @@
     ];
     // Themenanlässe knüpfen an den Wortlaut an, ohne die Haltung dazu zu unterstellen.
     const routes = empty ? [] : (data.routes || []).map(route => {
-      const match = new RegExp(route.pattern, 'iu').exec(text);
+      const match = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + route.pattern.replaceAll('\\w*', '\\p{L}*') + ')(?![\\p{L}\\p{N}_])', 'iu').exec(text);
       return match ? {...route, matched: match[0]} : null;
     }).filter(Boolean).sort((a,b) =>
       b.refs.filter(id => task.refs.includes(id)).length - a.refs.filter(id => task.refs.includes(id)).length

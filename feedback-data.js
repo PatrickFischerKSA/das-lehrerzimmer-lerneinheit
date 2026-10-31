@@ -846,7 +846,7 @@ const LEHRERZIMMER_DATA = {
     },
     {
       "id": "proof",
-      "pattern": "beweis\\w*|indiz\\w*|schuldig|unschuldig|täterschaft|beweislast",
+      "pattern": "beweis\\w*|bewies\\w*|indiz\\w*|schuld\\w*|unschuld\\w*|täterschaft|beweislast",
       "title": "Vom Hinweis zum Schuldurteil",
       "refs": [
         "B02",

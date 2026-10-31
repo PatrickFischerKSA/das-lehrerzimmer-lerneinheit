@@ -38,3 +38,7 @@ assert.ok(route.routes.some(r=>r.matched.toLowerCase()==='kontrolle'||r.matched.
 assert.equal(route.routes.length<=2,true);
 assert.deepEqual(run('').routes,[]);
 for(const route of data.routes)for(const id of route.refs)assert.ok(data.cards.find(c=>c.id===id));
+assert.equal(run('Die Zuordnung benötigt weitere Annahmen.').routes.some(r=>r.id==='choice'),false);
+assert.ok(run('Die öffentliche Entschuldigung genügt nicht.').routes.some(r=>r.id==='public'));
+assert.ok(run('Die Beweislücke bleibt bestehen.').routes.some(r=>r.id==='proof'));
+assert.ok(run('B10 ist noch nicht bewiesen.').routes.some(r=>r.id==='proof'));
